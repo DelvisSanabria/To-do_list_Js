@@ -52,23 +52,37 @@ body
       list-style: none
       margin: 0
       padding: 0
+      span
+        font-size: 1rem
+        margin-right: 5px
+        margin-top: 5px
+        cursor: pointer
+        color: #b3b4c2
+      .colorSave
+        color: #77788e
   .task
     display: grid
-    grid-template-columns: 20px 1fr 20px
+    grid-template-columns: 20px 1fr 40px 20px
     gap: 5px
     justify-content: center
     align-items: center
-    color: #fff
-    font-size: 1.6rem
     padding: 4px
     margin: 5px
     font-style: italic
+    color: #fff
+    .inputLi
+      outline: none
+      border: none
+      font-size: 1.6rem
+      background-color: transparent
+      font-style: italic
+      color: #fff
     button
       border: none
       background-color: transparent
       cursor: pointer
       color: #464a4e
-      padding-top: 4px
+      padding-top: 5px
   .checked
     opacity: 0.5
     text-decoration: line-through
